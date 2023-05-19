@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="search-city" name="search-city" placeholder="Insira uma cidade...">
+            <button id="button" type="submit" onClick="showWeather()">Buscar</button>
+        </div>
+        <div id="painel" class="hide">
+            <div id="city"></div>
+            <p id="temperature"></p>
+            <div>
+                <img src="" id="weather"></img>
+                <p id="weather-desc"></p>
+            </div>
+            <div class="min_max">
+                <p id="temp_min"></p>
+                <p id="temp_max"></p>
+            </div>
+            <div class="conditions">
+                <div class="wind">
+                    <i class="bi bi-wind"></i>
+                    <p id="wind"></p>
+                </div>
+                <div class="humidity">
+                    <i class="bi bi-droplet-fill"></i>
+                    <p id="humidity"></p>
+                </div>
+                
+            </div>
+        </div>
+        <div id="error" class="hide">
+            <p id="err_msg"></p>
+        </div>
+    </div>
+    
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

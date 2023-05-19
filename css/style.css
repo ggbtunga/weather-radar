@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Instrument Sans;
+}
+
+body{
+    background-color:#48B68C;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.container{
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.4);
+    padding: 10px;
+    border-style: ridge;
+    border-radius: 10px;
+    color:aliceblue;
+    box-sizing: border-box;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+#search-city{
+    box-sizing: border-box;
+    height: 40px;
+    padding-left: 5px;
+    border-style: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.hide{
+    display: none;
+}
+
+#button{
+    background-color: #59C49B;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+#painel{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#weather{
+    width: 60px;
+}
+
+#weather-desc{
+    font-size: 25px;
+}
+
+#err_msg{
+    margin-top: 10px;
+    color: rgb(170, 9, 9);
+}
+
+.min_max{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#temperature{
+    font-size: 40px;
+}
+
+#temp_min{
+    background-color: #2E67E2;
+    padding: 3px 5px;
+    border-radius: 10px;
+}
+#temp_max{
+    background-color: #EE5050;
+    padding: 3px 5px;
+    border-radius: 10px;
+}
+
+.conditions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.wind{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    padding: 0 5px;
+}
+#wind{
+    margin-left: 5px;
+}
+
+.humidity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#humidity{
+    margin-left: 5px;
+}
+
